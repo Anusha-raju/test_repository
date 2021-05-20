@@ -49,3 +49,6 @@ The compare_strings_new(n) function should reduce the performance time by 1/10.
 - test_clear_memory(): This test function is to check if the clear_memory function invoked by critical_function performed its task or not. 
 - test_memory_actually_increased():This test will check whether we are actually increase the memory during running the critical function.
 
+#### Test cases related to memory_usage of critical_function().
+- test_clear_memory(): This test function is to check if the clear_memory function invoked by critical_function performed its task or not. 
+- test_memory_actually_increased():This test will check whether we are actually increase the memory during running the critical function.
