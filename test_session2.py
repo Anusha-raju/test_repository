@@ -33,9 +33,11 @@ README_CONTENT_CHECK_FOR = [
 
 memory_used = []
 
+
 def test_clear_memory():
     memory_used = memory_usage((session2.critical_function))
     assert (memory_used[len(memory_used) - 1] - memory_used[0]) < 4
+
 
 
 def test_memory_actually_increased():
